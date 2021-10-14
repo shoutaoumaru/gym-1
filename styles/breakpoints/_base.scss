@@ -457,7 +457,6 @@ body.hidden {
 
   &__img {
     @extend .mb-sm;
-
   }
 
   &__desc {
@@ -497,6 +496,66 @@ body.hidden {
     }
 
 
+  }
+}
+
+//.p-access
+.p-access {
+  @extend .pb-md;
+  @extend .mb-lr;
+  padding-top: 20px;
+  color: $cWhite;
+  background-color: $cHeader;
+
+  .p-title {
+    & span {
+      color: $cWhite
+    }
+  }
+
+  &__img {
+    @extend .mb-sm;
+  }
+
+  &__desc {
+    @extend .mb-sm;
+
+    & a {
+      color: $cWhite
+    }
+  }
+
+  &__map {
+    @extend .mb-sm;
+
+    & iframe {
+      width: 100%;
+    }
+  }
+
+  .more-btn {
+    &__link {
+      border: 1px solid $cWhite;
+    }
+  }
+}
+
+//.p-instagram
+.p-instagram {
+  @extend .mb-lr;
+
+  &__img {
+    display: flex;
+    margin: 0 -6vw;
+    @extend .pb-sm;
+
+    & a {
+      height: 150px;
+    }
+  }
+
+  &__desc {
+    @extend .mb-sm;
   }
 }
 
@@ -560,7 +619,6 @@ body.hidden {
   border-top: 1px solid #EDEDED;
 
   &__logo {
-    text-align: center;
     @extend .mb-sm;
 
     & img {
@@ -569,23 +627,39 @@ body.hidden {
   }
 
   &__nav {
-    text-align: center;
+    margin: auto;
+    display: block;
 
     & ul {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
+      display: inline-block;
     }
 
     & li {
-      width: 50%;
+      margin-bottom: 15px;
+      text-align: left;
 
       & span {
+        position: relative;
         display: block;
+        padding-left: 20px;
+
+        &::before {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          margin: auto;
+          content: '';
+          height: 10px;
+          width: 10px;
+          background-image: url(/images/common/arrow.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+        }
       }
 
       & .c-txt-sm {
-        font-size: 16px;
+        font-size: 12px;
         color: $cBlack;
       }
     }

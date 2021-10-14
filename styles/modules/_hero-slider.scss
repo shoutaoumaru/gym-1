@@ -18,12 +18,13 @@
   display: inline-block;
   position: absolute;
   right: 10px;
-  bottom: -105px;
+  bottom: 0;
   z-index: 2;
-  padding: 10px 10px 38px;
+  padding: 10px 10px 42px;
   overflow: hidden;
-  color: $cBlack;
+  color: $cWhite;
   font-size: 12px;
+  z-index: 4000;
 
   @media (min-width:960px) {
     font-size: 28px;
@@ -43,7 +44,7 @@
     left: 50%;
     width: 1px;
     height: 60px;
-    background: $cBlack;
+    background: $cWhite;
   }
 
   &::after {
@@ -57,7 +58,7 @@
     }
 
     100% {
-      transform: translateY(25px);
+      transform: translateY(40px);
     }
   }
 }

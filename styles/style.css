@@ -145,14 +145,14 @@
   }
 }
 
-.mb-sm, .p-about__desc, .p-staff__img, .p-staff__desc, .p-price__img, .p-price__desc, .p-price__detail, .p-services__img, .p-services__desc, .p-news__list, .p-footer__logo, .p-footer__address, .c-company .c-policy__title, .c-company .c-policy__desc, .c-company .c-message__img, .c-company .c-message__desc, .c-company .c-about__title, .c-company .c-history__title, .c-business #business01 .c-title,
+.mb-sm, .p-about__desc, .p-staff__img, .p-staff__desc, .p-price__img, .p-price__desc, .p-price__detail, .p-access__img, .p-access__desc, .p-access__map, .p-instagram__desc, .p-services__img, .p-services__desc, .p-news__list, .p-footer__logo, .p-footer__address, .c-company .c-policy__title, .c-company .c-policy__desc, .c-company .c-message__img, .c-company .c-message__desc, .c-company .c-about__title, .c-company .c-history__title, .c-business #business01 .c-title,
 .c-business #business02 .c-title,
 .c-business #business03 .c-title, .c-business-item__img, .c-works__img-wrap, .c-works__item__tit {
   margin-bottom: 30px;
 }
 
 @media screen and (min-width: 600px) {
-  .mb-sm, .p-about__desc, .p-staff__img, .p-staff__desc, .p-price__img, .p-price__desc, .p-price__detail, .p-services__img, .p-services__desc, .p-news__list, .p-footer__logo, .p-footer__address, .c-company .c-policy__title, .c-company .c-policy__desc, .c-company .c-message__img, .c-company .c-message__desc, .c-company .c-about__title, .c-company .c-history__title, .c-business #business01 .c-title,
+  .mb-sm, .p-about__desc, .p-staff__img, .p-staff__desc, .p-price__img, .p-price__desc, .p-price__detail, .p-access__img, .p-access__desc, .p-access__map, .p-instagram__desc, .p-services__img, .p-services__desc, .p-news__list, .p-footer__logo, .p-footer__address, .c-company .c-policy__title, .c-company .c-policy__desc, .c-company .c-message__img, .c-company .c-message__desc, .c-company .c-about__title, .c-company .c-history__title, .c-business #business01 .c-title,
   .c-business #business02 .c-title,
   .c-business #business03 .c-title, .c-business-item__img, .c-works__img-wrap, .c-works__item__tit {
     margin-bottom: 30px;
@@ -160,7 +160,7 @@
 }
 
 @media screen and (min-width: 960px) {
-  .mb-sm, .p-about__desc, .p-staff__img, .p-staff__desc, .p-price__img, .p-price__desc, .p-price__detail, .p-services__img, .p-services__desc, .p-news__list, .p-footer__logo, .p-footer__address, .c-company .c-policy__title, .c-company .c-policy__desc, .c-company .c-message__img, .c-company .c-message__desc, .c-company .c-about__title, .c-company .c-history__title, .c-business #business01 .c-title,
+  .mb-sm, .p-about__desc, .p-staff__img, .p-staff__desc, .p-price__img, .p-price__desc, .p-price__detail, .p-access__img, .p-access__desc, .p-access__map, .p-instagram__desc, .p-services__img, .p-services__desc, .p-news__list, .p-footer__logo, .p-footer__address, .c-company .c-policy__title, .c-company .c-policy__desc, .c-company .c-message__img, .c-company .c-message__desc, .c-company .c-about__title, .c-company .c-history__title, .c-business #business01 .c-title,
   .c-business #business02 .c-title,
   .c-business #business03 .c-title, .c-business-item__img, .c-works__img-wrap, .c-works__item__tit {
     margin-bottom: 50px;
@@ -183,50 +183,50 @@
   }
 }
 
-.mb-lr, .p-about, .p-services {
+.mb-lr, .p-about, .p-access, .p-instagram, .p-services {
   margin-bottom: 80px;
 }
 
 @media screen and (min-width: 600px) {
-  .mb-lr, .p-about, .p-services {
+  .mb-lr, .p-about, .p-access, .p-instagram, .p-services {
     margin-bottom: 100px;
   }
 }
 
 @media screen and (min-width: 960px) {
-  .mb-lr, .p-about, .p-services {
+  .mb-lr, .p-about, .p-access, .p-instagram, .p-services {
     margin-bottom: 200px;
   }
 }
 
-.pb-sm {
+.pb-sm, .p-instagram__img {
   padding-bottom: 30px;
 }
 
 @media screen and (min-width: 600px) {
-  .pb-sm {
+  .pb-sm, .p-instagram__img {
     padding-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 960px) {
-  .pb-sm {
+  .pb-sm, .p-instagram__img {
     padding-bottom: 50px;
   }
 }
 
-.pb-md {
+.pb-md, .p-access {
   padding-bottom: 50px;
 }
 
 @media screen and (min-width: 600px) {
-  .pb-md {
+  .pb-md, .p-access {
     padding-bottom: 60px;
   }
 }
 
 @media screen and (min-width: 960px) {
-  .pb-md {
+  .pb-md, .p-access {
     padding-bottom: 100px;
   }
 }
@@ -248,7 +248,7 @@
 }
 
 .c-container, .c-business-item__desc {
-  padding: 0 5vw;
+  padding: 0 6vw;
 }
 
 @media screen and (min-width: 600px) {
@@ -281,12 +281,13 @@
   display: inline-block;
   position: absolute;
   right: 10px;
-  bottom: -105px;
+  bottom: 0;
   z-index: 2;
-  padding: 10px 10px 38px;
+  padding: 10px 10px 42px;
   overflow: hidden;
-  color: #272727;
+  color: #fff;
   font-size: 12px;
+  z-index: 4000;
   font-family: 'Josefin Sans', sans-serif;
   line-height: 1;
   letter-spacing: .2em;
@@ -309,7 +310,7 @@
   left: 50%;
   width: 1px;
   height: 60px;
-  background: #272727;
+  background: #fff;
 }
 
 .scrolldown::after {
@@ -324,8 +325,8 @@
             transform: translateY(-20px);
   }
   100% {
-    -webkit-transform: translateY(25px);
-            transform: translateY(25px);
+    -webkit-transform: translateY(40px);
+            transform: translateY(40px);
   }
 }
 
@@ -335,8 +336,8 @@
             transform: translateY(-20px);
   }
   100% {
-    -webkit-transform: translateY(25px);
-            transform: translateY(25px);
+    -webkit-transform: translateY(40px);
+            transform: translateY(40px);
   }
 }
 
@@ -823,6 +824,39 @@ body.hidden {
   margin-top: -10px;
 }
 
+.p-access {
+  padding-top: 20px;
+  color: #fff;
+  background-color: black;
+}
+
+.p-access .p-title span {
+  color: #fff;
+}
+
+.p-access__desc a {
+  color: #fff;
+}
+
+.p-access__map iframe {
+  width: 100%;
+}
+
+.p-access .more-btn__link {
+  border: 1px solid #fff;
+}
+
+.p-instagram__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -6vw;
+}
+
+.p-instagram__img a {
+  height: 150px;
+}
+
 .p-services {
   position: relative;
 }
@@ -855,38 +889,46 @@ body.hidden {
   border-top: 1px solid #EDEDED;
 }
 
-.p-footer__logo {
-  text-align: center;
-}
-
 .p-footer__logo img {
   width: 25%;
 }
 
 .p-footer__nav {
-  text-align: center;
-}
-
-.p-footer__nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.p-footer__nav li {
-  width: 50%;
-}
-
-.p-footer__nav li span {
+  margin: auto;
   display: block;
 }
 
+.p-footer__nav ul {
+  display: inline-block;
+}
+
+.p-footer__nav li {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.p-footer__nav li span {
+  position: relative;
+  display: block;
+  padding-left: 20px;
+}
+
+.p-footer__nav li span::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  content: '';
+  height: 10px;
+  width: 10px;
+  background-image: url(/images/common/arrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .p-footer__nav li .c-txt-sm, .p-footer__nav li .p-news__content {
-  font-size: 16px;
+  font-size: 12px;
   color: #272727;
 }
 
@@ -1535,7 +1577,7 @@ body.hidden {
 }
 
 .p-header .logo {
-  background-image: url(/images/common/riv_logo_official-wh.png);
+  background-image: url(/images/common/riv_logo_official-wh2.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

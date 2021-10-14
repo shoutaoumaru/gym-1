@@ -177,7 +177,7 @@ $breakpoints: ('md': 'screen and (min-width: 600px)',
 }
 
 .c-container {
-  padding: 0 5vw;
+  padding: 0 6vw;
 
   @include mq(md) {
     padding: 0 3vw;
