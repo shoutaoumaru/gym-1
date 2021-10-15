@@ -35,6 +35,60 @@
       display: none;
     }
   }
+
+  & .sp-navbtn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(8, 8, 8, 0.9);
+    height: 8vh;
+    width: 100%;
+    z-index: 2000;
+    transition: all.3s;
+
+    &__container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 77vw;
+      margin: auto;
+
+      & a {
+        position: relative;
+        color: $cWhite;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding-right: 25px;
+      }
+
+      & .tel {
+        letter-spacing: 2px;
+      }
+
+      & a:hover,
+      a:active {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  @media (min-width: 960px) {
+    .sp-navbtn {
+      display: none;
+    }
+  }
+
+  & .hide {
+    &.sp-navbtn {
+      transform: translateY(100%);
+      transition: all 0.4s;
+    }
+  }
 }
 
 @media (min-width:600px) {
@@ -225,7 +279,7 @@
 
   .mobile-button {
     position: fixed;
-    top: 20px;
+    top: 23px;
     right: 10px;
     z-index: 200;
   }
@@ -246,9 +300,9 @@
     &>span {
       background-color: $cWhite;
       width: 25px;
-      height: 1px;
+      height: 2px;
       display: block;
-      margin-bottom: 9px;
+      margin-bottom: 7px;
       transition: transform 0.7s;
       opacity: 1;
 
@@ -307,7 +361,7 @@
 
       &:nth-child(3) {
         transition-delay: 140ms;
-        transform: translateY(-10px) rotate(-135deg);
+        transform: translateY(-8px) rotate(-135deg);
       }
     }
   }

@@ -41,46 +41,39 @@
         <nav class="pc-nav">
           <ul class="pc-nav-list">
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/company/company.html"><span>会社案内</span>
-                <small>Company</small></a>
+              <a class="pc-nav-link animsition-link" href="/about/about.html"><span>RivRoundについて</span>
+                <small>ABOUT</small></a>
             </li>
             <li class="pc-nav-item">
               <a class="pc-nav-link animsition-link"
-                href="/business/business.html"><span>事業案内</span><small>business</small></a>
-            </li>
-            <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/works/works.html"><span>実績紹介</span><small>Works</small></a>
+                href="/method/method.html"><span>トレーニングメソッド</span><small>METHOD</small></a>
             </li>
             <li class="pc-nav-item">
               <a class="pc-nav-link animsition-link"
-                href="/recruit/recruit.html"><span>採用情報</span><small>Recruit</small></a>
+                href="/staff/staff.html"><span>スタッフ紹介</span><small>STAFF</small></a>
             </li>
             <li class="pc-nav-item">
-              <a class="pc-nav-link animsition-link" href="/news/news.html"><span>お知らせ</span><small>News</small></a>
+              <a class="pc-nav-link animsition-link"
+                href="/recruit/recruit.html"><span>採用情報</span><small>RECRUIT</small></a>
+            </li>
+            <li class="pc-nav-item">
+              <a class="pc-nav-link animsition-link" href="/news/news.html"><span>お知らせ</span><small>NEWS</small></a>
             </li>
           </ul>
         </nav>
       </div>
       <!-- /.pc-container -->
-      <!-- <div class="reserve-btn-js">
-        <div class="reserve-btn-js__inner">
-          <div class="reserve-btn-js__01">
-            <span>お</span>
-            <span>問</span>
-            <span>合</span>
-            <span>せ</span>
-          </div>
-          <div class="reserve-btn-js__02 js-left">
-            <div class="tel">
-              <a href="tel:092-686-7954">電話で<br>お問い合わせ</a>
-            </div>
-            <div class="net">
-              <a href="#">フォームで<br>お問い合わせ</a>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!-- /.reserve-btn -->
+      <nav class="sp-navbtn">
+        <ul class="sp-navbtn__container">
+          <li>
+            <a class="tel" href="tel:092-686-7954">電話予約<i class="icon-tel"></i></a>
+          </li>
+          <li>
+            <a class="net" target="_blank" href="https://beauty.hotpepper.jp/">オンライン予約<i class="icon-net"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.nav-btn -->
     </header>
     <!-- /.header -->
     <main id="main-contents">
@@ -351,13 +344,13 @@
                 <a class="animsition-link" href="/"><span class="c-txt-sm">ホーム</span></a>
               </li>
               <li>
-                <a class="animsition-link" href="/company/company.html"><span class="c-txt-sm">RivRoundについて</span></a>
+                <a class="animsition-link" href="/about/about.html"><span class="c-txt-sm">RivRoundについて</span></a>
               </li>
               <li>
-                <a class="animsition-link" href="/business/business.html"><span class="c-txt-sm">トレーニングメソッド</span></a>
+                <a class="animsition-link" href="/method/method.html"><span class="c-txt-sm">トレーニングメソッド</span></a>
               </li>
               <li>
-                <a class="animsition-link" href="/works/works.html"><span class="c-txt-sm">スタッフ紹介</span></a>
+                <a class="animsition-link" href="/trainers/trainers.html"><span class="c-txt-sm">スタッフ紹介</span></a>
               </li>
               <li>
                 <a class="animsition-link" href="/recruit/recruit.html"><span class="c-txt-sm">採用情報</span></a>
@@ -379,9 +372,9 @@
       <nav class="mobile-menu__nav">
         <ul class="mobile-menu__list">
           <li class="mobile-menu__item"><a class="animsition-link" href="/">ホーム</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/company/company.html">会社案内</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/business/business.html">事業案内</a></li>
-          <li class="mobile-menu__item"><a class="animsition-link" href="/works/works.html">実績紹介</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href="/company/company.html">RivRoundについて</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href="/business/business.html">トレーニングメソッド</a></li>
+          <li class="mobile-menu__item"><a class="animsition-link" href="/works/works.html">スタッフ紹介</a></li>
           <li class="mobile-menu__item"><a class="animsition-link" href="/news/news.html">お知らせ</a></li>
           <li class="mobile-menu__item"><a class="animsition-link" href="/recruit/recruit.html">採用情報</a></li>
         </ul>
@@ -413,12 +406,14 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="/scripts/vendor/animsition.min.js"></script>
+  <script src="/scripts/libs/scroll-btn.js"></script>
   <script src="/scripts/libs/page.js"></script>
   <script src="/scripts/libs/hero-slider.js"></script>
   <script src="/scripts/vendor/simpleParallax.min.js"></script>
   <script src="/scripts/libs/parallax.js"></script>
   <script src="/scripts/libs/text-animation.js"></script>
   <script src="/scripts/libs/mobile-menu.js"></script>
+
   <script src="/scripts/libs/scroll.js"></script>
   <script src="/scripts/main.js"></script>
 </body>

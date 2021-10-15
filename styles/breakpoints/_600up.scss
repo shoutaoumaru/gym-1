@@ -147,164 +147,76 @@
   }
 }
 
-//* * * * * * 会社概要 * * * * * * * 
-.c-company {
-  .c-topview {
-    margin-bottom: 60px;
-  }
-
-  .c-container {
-    padding: 0 8vw;
-  }
-
-  .c-message {
-
-    &__wrap {
-      display: flex;
-      justify-content: space-between;
+// * * * * * * * * * faq-page * * * * * * 
+.faq-wrapper {
+  .faq-contents {
+    & .c-container {
+      padding: 0 7vw;
     }
 
-    &__img {
-      width: 30%;
-      height: 30vh;
-    }
+    & .faq {
+      margin: 10vw 0;
 
-    &__desc {
-      margin-bottom: 0;
-    }
-
-    &__txt {
-      padding-top: 60px;
-      width: 65%;
-    }
-  }
-
-  .c-policy {
-    &__img {
-      display: flex;
-      justify-content: space-between;
-
-      & img {
-        width: 48%;
-        height: 300px;
-      }
-    }
-  }
-
-  .c-about,
-  .c-history {
-
-    &__desc {
-
-      th,
-      td {
-        width: 50%;
-        display: table-cell;
-        text-align: left;
+      &__title {
+        text-align: center;
       }
 
-      th {
-        width: 30%;
+      & .c-txt-sm {
+        font-size: 16px;
       }
 
-      td {
-        width: 70%;
-        border: 1px solid #DDDDDD;
+      & .c-txt-md {
+        font-size: 18px;
       }
-    }
-  }
 
-  .c-about {
-    &__img {
-      display: flex;
-      justify-content: space-between;
+      & dt {
+        &::before {
+          font-size: 28px;
+        }
 
-      & img {
-        width: 48%;
-        height: 200px;
+        & span {
+          &::after {
+            width: 3vw;
+          }
+        }
       }
-    }
-  }
 
-  .c-access {
-    &__map {
-      iframe {
-        height: 300px;
-      }
-    }
-  }
-}
-
-//* * * * * * 事業案内 * * * * * * * 
-.c-business {
-
-  &-item {
-    margin-left: 14%;
-    padding-right: 5vw;
-
-    .c-title {
-      padding-left: 0;
-    }
-
-    &__wrap {
-      display: flex;
-      justify-content: space-around;
-    }
-
-    &__img {
-      display: block;
-      width: 40%;
-
-      & img {
-        width: 100%;
-        height: 60%;
+      & dd {
+        &::before {
+          font-size: 30px;
+        }
       }
     }
 
-    &__desc {
-      position: relative;
-      margin-top: 20px;
-      width: 55%;
+    & .nw-topview {
+      margin: 0 -3vw;
 
-      &::before {
-        position: absolute;
-        top: -400px;
-        right: -5vw;
-        content: '';
-        height: 100vh;
-        width: 250px;
-        display: block;
-        background-color: $cSubWhite;
-        z-index: -1;
+      &__inner {
+        margin: 0 -4vw;
+      }
+    }
+
+    .p-footer {
+      &__wrap {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      & .p-open-time {
+        margin: 0;
+
+        &__wrap {
+          width: 90%;
+        }
+
+        &__table {
+          & th:first-child {
+            width: 9.8vw;
+          }
+        }
       }
     }
   }
-}
-
-//* * * * * * 実績紹介 * * * * * * * 
-.c-works {
-  .c-container {
-    padding: 0 10vw;
-  }
-
-  &__item {
-    display: flex;
-    justify-content: space-between;
-
-    .view-sp {
-      display: none;
-    }
-  }
-
-  &__img-wrap {
-    width: 40%;
-    margin-bottom: 0;
-  }
-
-  &__txt {
-    width: 50%;
-  }
-
 }
 
 //* * * * * * 採用情報 * * * * * * * 
