@@ -1,13 +1,15 @@
 $cShadowBlack :black;
 $cBlack: rgb(39, 39, 39);
-$cSubBlack: #586166;
+$cSubBlack: #434749;
 $cGray: #949494;
 $cWhite:#fff;
 $cSubWhite:rgb(245, 245, 245);
 $cBlue: rgb(52, 126, 175);
 $cSubBlue: #e2eaf3;
 $cOrange :#F99900;
+$cContact: rgb(248, 248, 250);
 $cHeader:rgb(0, 0, 0);
+$cHeader-pc:rgba(0, 0, 0, 0.9);
 $breakpoints: ('md': 'screen and (min-width: 600px)',
   'lr': 'screen and (min-width: 960px)',
   'lg': 'screen and (min-width: 1200px)',

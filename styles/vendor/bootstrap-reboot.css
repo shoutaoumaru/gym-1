@@ -73,7 +73,7 @@ ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 ol ol,
@@ -91,8 +91,7 @@ dt {
 }
 
 dd {
-  margin-bottom: .5rem;
-  margin-left: 0;
+  margin: 0;
 }
 
 blockquote {

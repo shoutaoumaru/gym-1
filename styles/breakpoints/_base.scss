@@ -266,7 +266,6 @@ body.hidden {
 
   &__link {
     background-color: $cShadowBlack;
-    width: 180px;
     height: 50px;
     display: inline-block;
     padding: 10px 15px;
@@ -576,27 +575,35 @@ body.hidden {
   }
 }
 
-//.p-services
-.p-services {
-  @extend .mb-lr;
-  position: relative;
+//.p-voices
+.p-voices {
+  background-color: $cContact;
+  padding-top: 20px;
+  @extend .pb-lr;
 
-  &__img {
-    @extend .mb-sm;
+  &__item {
+    text-align: center;
+
+    img {
+      width: 50%;
+    }
+
   }
 
   &__desc {
     @extend .mb-sm;
+  }
 
-    & strong {
-      font-size: 18px;
-      font-weight: bold;
+  .p-voice01 {
+    &__img {
+      text-align: center
     }
   }
 }
 
 //.p-news
 .p-news {
+  padding-top: 20px;
   @extend .mb-md;
 
   & .p-title {
@@ -633,7 +640,7 @@ body.hidden {
 //.p-footer 
 .p-footer {
   padding: 40px 0;
-  border-top: 1px solid #EDEDED;
+  background-color: $cContact;
 
   &__logo {
     @extend .mb-sm;
@@ -918,6 +925,90 @@ body.hidden {
   }
 }
 
+//* * * * * * よくあるご質問 * * * * * * * 
+.faq-wrapper {
+  overflow: hidden;
+
+  .faq {
+    @extend .mb-lr;
+
+    .c-txt-sm {
+      font-size: 16px;
+    }
+
+    & .c-txtarea01 {
+      @extend .mb-md;
+    }
+
+    & dt {
+      position: relative;
+      cursor: pointer;
+      transition: color 0.2s cubic-bezier(0, 0, 0.58, 1);
+      padding: 2.6vw 0 6.6vw 0;
+
+      &::before {
+        content: 'Q';
+        position: absolute;
+        top: 4vw;
+        left: 0;
+        width: 12px;
+        font-size: 20px;
+        color: rgb(25, 47, 119);
+      }
+
+      & span {
+        padding-right: 8vw;
+        margin-top: 4vw;
+        margin-left: 8vw;
+        line-height: 1.5;
+        display: block;
+        position: relative;
+        padding-left: 3vw;
+
+        &::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          right: 0;
+          width: 16px;
+          height: 16px;
+          background-image: url(/images/common/arrow-down-bl.png);
+          background-position: top center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          transition: all .2s;
+
+        }
+      }
+    }
+
+    & dd {
+      position: relative;
+
+      &::before {
+        content: 'A';
+        position: absolute;
+        top: 1vw;
+        left: 0;
+        width: 12px;
+        font-size: 22px;
+        color: rgb(25, 47, 119);
+      }
+
+      & .m-description-article {
+        padding-top: 5.2vw;
+        margin-left: 8vw;
+        font-size: 3.7vw;
+        display: block;
+        line-height: 2;
+        padding-left: 3vw;
+      }
+    }
+  }
+}
+
 //* * * * * * news-page * * * * * * * 
 .c-news {
   padding: 0 0 10vw 0;
@@ -1086,10 +1177,37 @@ body.hidden {
   }
 }
 
-//* * * * * * contact-page * * * * * * *
+//* * * * * * お問い合わせフォーム * * * * * 
 .c-contact {
-  &-text {
-    margin-bottom: 30px;
+  background-color: $cContact;
+
+  .c-topview {
+    &__img {
+      @extend .mb-sm;
+    }
+
+    .c-container {
+      p {
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .c-description {
+    padding: 40px 0;
+    background-color: $cHeader;
+    color: $cWhite;
+    @extend .mb-md;
+
+    ul {
+      padding: 20px 0;
+    }
+
+    .c-txt-xs {
+      font-size: 12px;
+      color: $cWhite;
+    }
   }
 
   .contact-form {
@@ -1105,9 +1223,7 @@ body.hidden {
     & input,
     & textarea {
       width: 100%;
-      border-radius: 5px;
-      border: 1px solid $cGray;
-      margin: 12px 0 20px 0;
+      border: 1px solid $cBlack;
     }
 
     & textarea {
@@ -1118,26 +1234,86 @@ body.hidden {
       height: 45px;
     }
 
-    & label {
+    & select {
+      width: 130px;
+      height: 45px;
+      border: 1px solid $cBlack;
+    }
+
+    & dl {
       text-align: left;
-      font-weight: bold;
-      font-size: 16px;
+      display: inline-block;
+      width: 280px;
+      padding-bottom: 20px;
+    }
+
+    & dt {
+      font-size: 14px;
     }
 
     & .must {
-      background-color: red;
-      border-radius: 10px;
-      color: $cWhite;
-      padding: 5px 10px;
+      position: relative;
+      padding: 5px 15px 5px 0;
       margin-right: 10px;
+
+      &::after {
+        content: '*';
+        font-size: 14px;
+        color: rgb(29, 100, 158);
+      }
     }
 
     & .free {
-      background-color: rgb(66, 69, 206);
-      border-radius: 10px;
-      color: $cWhite;
-      padding: 5px 10px;
+      padding: 5px 15px 5px 0;
       margin-right: 10px;
+    }
+
+    .ct-request {
+
+      & select {
+        width: 100%;
+      }
+    }
+
+    .ct-flex {
+      display: flex;
+      justify-content: space-between;
+      width: 280px;
+      text-align: center;
+      margin: auto;
+      padding-bottom: 20px;
+    }
+
+    .ct-sex {
+      display: inline-block;
+      text-align: left;
+
+      & input {
+        margin: 0;
+      }
+
+      & select {
+        height: 45px;
+      }
+    }
+
+    .ct-age {
+      display: inline-block;
+      text-align: left;
+    }
+
+    .ct-date {
+      text-align: left;
+      font-size: 14px;
+
+      & input {
+        margin-top: 0;
+        width: 130px;
+      }
+    }
+
+    .ct-time {
+      text-align: left;
     }
 
     & .wpcf7 form {
@@ -1162,8 +1338,13 @@ body.hidden {
       border-bottom: 1px solid rgb(33, 128, 218);
     }
 
+    .privacy {
+      @extend .mb-sm;
+    }
+
     & .submit-btn {
       text-align: center;
+      @extend .mb-sm;
 
       & input:disabled {
         border-color: $cGray;
@@ -1181,24 +1362,35 @@ body.hidden {
       display: none;
     }
 
-    @media (min-width:768px) {
+    .wpcf7-spinner {
+      display: none;
+    }
+
+    @media (min-width:600px) {
       & .c-contact-text {
         font-size: 18px;
       }
 
-      & input {
-        height: 55px;
-      }
-
-      & input,
-      & textarea {
-        margin: 24px 0 30px 0;
-
-      }
-
-      & label {
+      dt {
         font-size: 20px;
+      }
+
+      dl {
         width: 540px;
+      }
+
+      .ct-date {
+        & input {
+          width: 250px;
+        }
+      }
+
+      .ct-flex {
+        width: 540px;
+      }
+
+      select {
+        width: 250px;
       }
 
       & .submit-btn {
