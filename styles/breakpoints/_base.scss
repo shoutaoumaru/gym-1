@@ -467,6 +467,19 @@ body.hidden {
   }
 }
 
+//.p-method
+.p-method {
+  @extend .pb-lr;
+
+  &__img {
+    @extend .pb-sm;
+  }
+
+  &__desc {
+    @extend .pb-sm;
+  }
+}
+
 //.p-price
 .p-price {
   @extend .pb-lr;
@@ -583,15 +596,33 @@ body.hidden {
 
   &__item {
     text-align: center;
+  }
+
+  &__img {
+    margin-bottom: 15px;
 
     img {
-      width: 50%;
+      width: 35%;
     }
-
   }
 
   &__desc {
     @extend .mb-sm;
+
+    & p {
+      margin-bottom: 10px;
+    }
+
+    & .name {
+      font-weight: bold;
+
+    }
+
+    & .tit {
+      font-size: 18px;
+      font-weight: bold;
+      color: $cBlue;
+    }
   }
 
   .p-voice01 {

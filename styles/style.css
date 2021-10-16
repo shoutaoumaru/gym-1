@@ -193,18 +193,18 @@
   }
 }
 
-.pb-sm, .p-instagram__img {
+.pb-sm, .p-method__img, .p-method__desc, .p-instagram__img {
   padding-bottom: 30px;
 }
 
 @media screen and (min-width: 600px) {
-  .pb-sm, .p-instagram__img {
+  .pb-sm, .p-method__img, .p-method__desc, .p-instagram__img {
     padding-bottom: 30px;
   }
 }
 
 @media screen and (min-width: 960px) {
-  .pb-sm, .p-instagram__img {
+  .pb-sm, .p-method__img, .p-method__desc, .p-instagram__img {
     padding-bottom: 50px;
   }
 }
@@ -225,18 +225,18 @@
   }
 }
 
-.pb-lr, .p-aicatch, .p-aicatch__img, .p-staff, .p-price, .p-voices {
+.pb-lr, .p-aicatch, .p-aicatch__img, .p-staff, .p-method, .p-price, .p-voices {
   padding-bottom: 80px;
 }
 
 @media screen and (min-width: 600px) {
-  .pb-lr, .p-aicatch, .p-aicatch__img, .p-staff, .p-price, .p-voices {
+  .pb-lr, .p-aicatch, .p-aicatch__img, .p-staff, .p-method, .p-price, .p-voices {
     padding-bottom: 100px;
   }
 }
 
 @media screen and (min-width: 960px) {
-  .pb-lr, .p-aicatch, .p-aicatch__img, .p-staff, .p-price, .p-voices {
+  .pb-lr, .p-aicatch, .p-aicatch__img, .p-staff, .p-method, .p-price, .p-voices {
     padding-bottom: 200px;
   }
 }
@@ -872,8 +872,26 @@ body.hidden {
   text-align: center;
 }
 
-.p-voices__item img {
-  width: 50%;
+.p-voices__img {
+  margin-bottom: 15px;
+}
+
+.p-voices__img img {
+  width: 35%;
+}
+
+.p-voices__desc p {
+  margin-bottom: 10px;
+}
+
+.p-voices__desc .name {
+  font-weight: bold;
+}
+
+.p-voices__desc .tit {
+  font-size: 18px;
+  font-weight: bold;
+  color: #347eaf;
 }
 
 .p-voices .p-voice01__img {
