@@ -1,4 +1,4 @@
-$pattern: ('up': translateY(20px),
+$pattern: ('up': translateY(10px),
   'down': translateY(20px),
   'left': translateX(30px),
   'right': translateX(-30px),
@@ -27,7 +27,7 @@ $value in $pattern {
 
 .appear {
   & .item {
-    transition: all .6s;
+    transition: all .4s;
     opacity: 0;
   }
 
@@ -38,7 +38,7 @@ $value in $pattern {
 
       @for $i from 1 to 40 {
         &:nth-child(#{$i}) {
-          transition-delay: $i * .5s;
+          transition-delay: $i * .4s;
         }
       }
     }

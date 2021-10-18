@@ -16,7 +16,7 @@ class HeroSlider {
 
   start(options = {}) {
     options = Object.assign({
-        delay: 4000,
+        delay: 5500,
         disableOnInteraction: false,
       },
       options

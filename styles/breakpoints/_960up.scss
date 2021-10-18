@@ -1,12 +1,6 @@
 .p-title {
   .en {
-    font-size: 50px;
-    padding-right: 140px;
-
-    &::before {
-      height: 40px;
-      width: 40px;
-    }
+    font-size: 38px;
 
     &::after {
       width: 120px;
@@ -14,69 +8,78 @@
   }
 
   .ja {
-    font-size: 26px;
+    font-size: 18px;
   }
 }
 
 .top-view {
-  margin-top: 85px;
 
   .hero {
     &__text {
       h2 {
-        font-size: 58px;
-      }
-
-      &::after {
-        left: 236px;
-        bottom: 190px;
+        font-size: 48px;
       }
     }
+  }
+}
+
+.tit {
+  & .ja {
+    font-size: 24px;
+  }
+
+  & .en {
+    font-size: 18px;
   }
 }
 
 .c-topview {
-  margin-top: 90px;
+  margin-bottom: 60px;
+}
 
-  .c-title {
-    .en {
-      font-size: 54px;
+.c-title {
+  .en {
+    font-size: 42px;
+  }
 
-      &::before {
-        height: 50px;
-        width: 50px;
+  .ja {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+}
+
+//.p-footer 
+.p-footer {
+  &__logo {
+
+    & img {
+      width: 60%;
+    }
+  }
+
+  &__nav {
+    li {
+      .c-txt-sm {
+        font-size: 18px;
       }
     }
-
-    .ja {
-      font-size: 28px;
-    }
   }
 }
 
-.p-works {
-
-  .hero {
-    position: relative;
-    overflow: hidden;
-
-    .more-btn {
-      position: absolute;
-      right: 10px;
-      bottom: 0;
-    }
-  }
-
-  .swiper-container2 {
-    width: 95%;
-    margin-right: 0;
+// * * * * * * * * * お知らせ一覧 * * * * * * 
+.news-wrapper {
+  .c-title {
+    margin-bottom: 50px;
   }
 }
 
-
-// * * * * * * * * * faq-page * * * * * * 
+// * * * * * * * * * よくあるご質問 * * * * * * 
 .faq-wrapper {
   .faq-contents {
+    .c-container {
+      padding: 0 20vw;
+    }
+
     .faq {
       &__title {
         margin-bottom: 5vw;
@@ -92,19 +95,30 @@
         }
       }
 
+      & dt {
+        padding: 0 0 2vw 0;
+
+        span {
+          &::after {
+            height: 24px;
+          }
+        }
+      }
+
       & .c-title {
         font-size: 26px;
       }
 
       & .c-txtarea01 {
-        margin-bottom: 15vw;
 
         & .c-txt-sm {
           font-size: 20px;
         }
       }
 
-
+      & .c-txt-sm {
+        font-size: 24px;
+      }
     }
   }
 }

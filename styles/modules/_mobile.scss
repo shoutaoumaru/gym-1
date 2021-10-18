@@ -1,6 +1,7 @@
 //.header
 .p-header {
   width: 100%;
+  height: 64px;
 
   & .logo__img {
     display: inline-block;
@@ -78,6 +79,8 @@
   }
 
   @media (min-width: 960px) {
+    height: 100px;
+
     .mobile-container {
       display: none;
     }
@@ -102,9 +105,15 @@
     left: 0;
     display: flex;
     justify-content: space-between;
-    z-index: 4000;
+    align-items: flex-end;
+    z-index: 8000;
     width: 100%;
+    height: 100px;
     background-color: $cHeader-pc;
+
+    & .pc-nav {
+      margin-bottom: 10px;
+    }
 
     & .pc-nav-list {
       display: flex;
@@ -113,23 +122,88 @@
     & .pc-nav-item {
       font-size: 14px;
       padding-top: 20px;
-      padding-right: 5vw;
+      padding-right: 3.5vw;
+      transition: all 0.3s;
 
       & a {
         color: $cWhite;
       }
 
+      &:hover {
+        transform: translateY(4px);
+        transition: all 0.3s;
+      }
+
       & small {
-        color: $cOrange;
+        color: $cBlue;
         display: block;
         text-align: center;
         font-size: 10px;
       }
     }
 
+
+
+    & .pc-contact {
+      position: absolute;
+      top: 2px;
+      right: 10px;
+
+      & a {
+        position: relative;
+        background-color: $cShadowBlue;
+        padding: 8px 20px 8px 30px;
+        border-radius: 4px;
+        color: $cWhite;
+        display: inline-block;
+        transition: all 0.3s;
+      }
+
+      & a:hover {
+        transform: translateY(4px);
+        transition: all 0.3s;
+      }
+
+      & .pc-tel {
+        &::before {
+          position: absolute;
+          top: 0;
+          left: 5px;
+          bottom: 0;
+          margin: auto;
+          content: '';
+          height: 18px;
+          width: 18px;
+          background-image: url(/images/common/tel-white.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      }
+
+      & .pc-net {
+        &::before {
+          position: absolute;
+          top: 0;
+          left: 5px;
+          bottom: 0;
+          margin: auto;
+          content: '';
+          height: 18px;
+          width: 18px;
+          background-image: url(/images/common/icon-link-1-white.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+
     & .logo__img {
       display: inline-block;
-      margin: 15px 10px 0 20px;
+      margin: 15px 10px 20px 20px;
+
+      & .logo {
+        width: 160px;
+      }
     }
   }
 }

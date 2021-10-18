@@ -2,12 +2,7 @@
   &__img {
     height: 45vh;
   }
-
-  .c-title {
-    left: -20%;
-  }
 }
-
 
 .top-view {
 
@@ -19,9 +14,6 @@
 }
 
 .p-about {
-  & .c-container {
-    margin-left: 10%;
-  }
 
   &__img {
     ul {
@@ -32,32 +24,6 @@
   }
 }
 
-.p-services {
-  & .c-container {
-    margin-left: 10%;
-  }
-}
-
-.p-works {
-  & .c-container {
-    margin-left: 10%;
-  }
-}
-
-
-//* * * * * * 会社概要 * * * * * * * 
-.c-company {
-  .c-container {
-    padding: 0 18vw;
-  }
-}
-
-//* * * * * * 実績紹介 * * * * * * * 
-.c-works {
-  .c-container {
-    padding: 0 18vw;
-  }
-}
 
 //* * * * * * 採用情報 * * * * * * * 
 .c-recruit {
