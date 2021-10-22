@@ -824,7 +824,7 @@ body.hidden {
 }
 
 .p-aicatch {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
 }
 
@@ -834,7 +834,7 @@ body.hidden {
 }
 
 .p-staff {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .p-staff .p-title span {
@@ -886,7 +886,7 @@ body.hidden {
 .p-access {
   padding-top: 20px;
   color: #fff;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .p-access .p-title span {
@@ -1503,7 +1503,7 @@ body.hidden {
 
 .c-contact .c-description {
   padding: 40px 0;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   color: #fff;
 }
 
@@ -1980,7 +1980,7 @@ body.hidden {
     left: 5px;
     bottom: 0;
     margin: auto;
-    content: '';
+    content: "";
     height: 18px;
     width: 18px;
     background-image: url(/images/common/tel-white.png);
@@ -1993,7 +1993,7 @@ body.hidden {
     left: 5px;
     bottom: 0;
     margin: auto;
-    content: '';
+    content: "";
     height: 18px;
     width: 18px;
     background-image: url(/images/common/icon-link-1-white.png);
@@ -2019,7 +2019,7 @@ body.hidden {
   transition: all 0.5s;
   opacity: 0;
   z-index: -1;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: black;
 }
 
 .mobile-menu__nav {
@@ -2078,7 +2078,7 @@ body.hidden {
   left: 0;
   right: 0;
   margin: auto;
-  content: '';
+  content: "";
   display: block;
   height: 22px;
   width: 22px;
@@ -2106,7 +2106,7 @@ body.hidden {
   overflow: hidden;
   height: 64px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   opacity: 0.9;
 }
 
