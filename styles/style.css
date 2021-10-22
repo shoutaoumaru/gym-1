@@ -124,7 +124,7 @@
   font-size: 10px;
   letter-spacing: 2px;
   line-height: 2;
-  color: #347eaf;
+  color: #968a64;
 }
 
 @media screen and (min-width: 600px) {
@@ -147,14 +147,18 @@
 
 .mb-sm, .c-title, .tit, .p-about__desc, .p-staff__img, .p-staff__desc, .p-price__img, .p-price__desc, .p-price__detail, .p-access__img, .p-access__desc, .p-access__map, .p-instagram__desc, .p-voices__desc, .p-news__list, .p-footer__logo, .p-footer__address, .c-about .c-points__img,
 .c-method .c-points__img, .c-about .c-points__desc .num-wrap,
-.c-method .c-points__desc .num-wrap, .c-trainers .c-staff__item .director, .c-trainers .c-staff__img, .c-trainers .c-staff__text, .c-trainers .c-staff__ls, .faq-wrapper .faq .c-txtarea01, .faq-wrapper .faq__item, .c-contact .c-topview__img, .c-contact .contact-form .privacy, .c-contact .contact-form .submit-btn, .mobile-menu__item {
+.c-method .c-points__desc .num-wrap, .c-about .c-flow .item-tit,
+.c-method .c-flow .item-tit, .c-about .c-flow .item-img,
+.c-method .c-flow .item-img, .c-trainers .c-staff__item .director, .c-trainers .c-staff__img, .c-trainers .c-staff__text, .c-trainers .c-staff__ls, .faq-wrapper .faq .c-txtarea01, .faq-wrapper .faq__item, .c-contact .c-topview__img, .c-contact .contact-form .privacy, .c-contact .contact-form .submit-btn, .mobile-menu__item {
   margin-bottom: 30px;
 }
 
 @media screen and (min-width: 600px) {
   .mb-sm, .c-title, .tit, .p-about__desc, .p-staff__img, .p-staff__desc, .p-price__img, .p-price__desc, .p-price__detail, .p-access__img, .p-access__desc, .p-access__map, .p-instagram__desc, .p-voices__desc, .p-news__list, .p-footer__logo, .p-footer__address, .c-about .c-points__img,
   .c-method .c-points__img, .c-about .c-points__desc .num-wrap,
-  .c-method .c-points__desc .num-wrap, .c-trainers .c-staff__item .director, .c-trainers .c-staff__img, .c-trainers .c-staff__text, .c-trainers .c-staff__ls, .faq-wrapper .faq .c-txtarea01, .faq-wrapper .faq__item, .c-contact .c-topview__img, .c-contact .contact-form .privacy, .c-contact .contact-form .submit-btn, .mobile-menu__item {
+  .c-method .c-points__desc .num-wrap, .c-about .c-flow .item-tit,
+  .c-method .c-flow .item-tit, .c-about .c-flow .item-img,
+  .c-method .c-flow .item-img, .c-trainers .c-staff__item .director, .c-trainers .c-staff__img, .c-trainers .c-staff__text, .c-trainers .c-staff__ls, .faq-wrapper .faq .c-txtarea01, .faq-wrapper .faq__item, .c-contact .c-topview__img, .c-contact .contact-form .privacy, .c-contact .contact-form .submit-btn, .mobile-menu__item {
     margin-bottom: 30px;
   }
 }
@@ -162,7 +166,9 @@
 @media screen and (min-width: 960px) {
   .mb-sm, .c-title, .tit, .p-about__desc, .p-staff__img, .p-staff__desc, .p-price__img, .p-price__desc, .p-price__detail, .p-access__img, .p-access__desc, .p-access__map, .p-instagram__desc, .p-voices__desc, .p-news__list, .p-footer__logo, .p-footer__address, .c-about .c-points__img,
   .c-method .c-points__img, .c-about .c-points__desc .num-wrap,
-  .c-method .c-points__desc .num-wrap, .c-trainers .c-staff__item .director, .c-trainers .c-staff__img, .c-trainers .c-staff__text, .c-trainers .c-staff__ls, .faq-wrapper .faq .c-txtarea01, .faq-wrapper .faq__item, .c-contact .c-topview__img, .c-contact .contact-form .privacy, .c-contact .contact-form .submit-btn, .mobile-menu__item {
+  .c-method .c-points__desc .num-wrap, .c-about .c-flow .item-tit,
+  .c-method .c-flow .item-tit, .c-about .c-flow .item-img,
+  .c-method .c-flow .item-img, .c-trainers .c-staff__item .director, .c-trainers .c-staff__img, .c-trainers .c-staff__text, .c-trainers .c-staff__ls, .faq-wrapper .faq .c-txtarea01, .faq-wrapper .faq__item, .c-contact .c-topview__img, .c-contact .contact-form .privacy, .c-contact .contact-form .submit-btn, .mobile-menu__item {
     margin-bottom: 30px;
   }
 }
@@ -188,14 +194,18 @@
 
 .mb-lr, .p-about, .p-access, .p-instagram, .c-about .c-features,
 .c-method .c-features, .c-about .c-points,
-.c-method .c-points, .c-recruit, .faq-wrapper .faq {
+.c-method .c-points, .c-about .c-flow,
+.c-method .c-flow, .c-about .c-flow-content,
+.c-method .c-flow-content, .c-recruit, .faq-wrapper .faq {
   margin-bottom: 70px;
 }
 
 @media screen and (min-width: 600px) {
   .mb-lr, .p-about, .p-access, .p-instagram, .c-about .c-features,
   .c-method .c-features, .c-about .c-points,
-  .c-method .c-points, .c-recruit, .faq-wrapper .faq {
+  .c-method .c-points, .c-about .c-flow,
+  .c-method .c-flow, .c-about .c-flow-content,
+  .c-method .c-flow-content, .c-recruit, .faq-wrapper .faq {
     margin-bottom: 80px;
   }
 }
@@ -203,7 +213,9 @@
 @media screen and (min-width: 960px) {
   .mb-lr, .p-about, .p-access, .p-instagram, .c-about .c-features,
   .c-method .c-features, .c-about .c-points,
-  .c-method .c-points, .c-recruit, .faq-wrapper .faq {
+  .c-method .c-points, .c-about .c-flow,
+  .c-method .c-flow, .c-about .c-flow-content,
+  .c-method .c-flow-content, .c-recruit, .faq-wrapper .faq {
     margin-bottom: 80px;
   }
 }
@@ -278,7 +290,7 @@
 @media screen and (min-width: 1200px) {
   .c-container, .c-about .c-points__desc,
   .c-method .c-points__desc {
-    padding: 0 8vw;
+    padding: 0 10vw;
   }
 }
 
@@ -380,8 +392,8 @@ Stylesheet: ベーススタイル
 ******************************************************************/
 body {
   color: #272727;
-  font-family: 'Cormorant Infant', serif;
-  font-family: 'Noto Serif JP', serif;
+  font-family: "Cormorant Infant", serif;
+  font-family: "Noto Serif JP", serif;
   letter-spacing: 1px;
 }
 
@@ -409,7 +421,7 @@ body.hidden {
   position: absolute;
   top: 6px;
   right: 0;
-  content: '';
+  content: "";
   display: inline-block;
   height: 12px;
   width: 12px;
@@ -465,7 +477,7 @@ body.hidden {
 }
 
 .icon-map::before {
-  content: '';
+  content: "";
   display: block;
   background-image: url(/images/common/icon-map.png);
   background-position: center;
@@ -484,7 +496,7 @@ body.hidden {
 }
 
 .icon-insta::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -507,7 +519,7 @@ body.hidden {
 }
 
 .c-topview__img::before {
-  content: '';
+  content: "";
   display: block;
   height: 100%;
   width: 100%;
@@ -574,7 +586,7 @@ body.hidden {
   right: 0;
   left: 0;
   margin: auto;
-  content: '';
+  content: "";
   display: inline-block;
   width: 80px;
   height: 1px;
@@ -605,7 +617,7 @@ body.hidden {
   bottom: 0;
   left: 0;
   margin: auto;
-  content: '';
+  content: "";
   display: inline-block;
   width: 80px;
   height: 1px;
@@ -662,7 +674,7 @@ body.hidden {
 }
 
 .more-btn__link span:first-child::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   top: 0;
@@ -674,8 +686,8 @@ body.hidden {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   z-index: 100;
 }
 
@@ -776,12 +788,12 @@ body.hidden {
   position: absolute;
   top: 0;
   left: 0;
-  content: '';
+  content: "";
   display: block;
   height: 100%;
   width: 100%;
   background-color: #272727;
-  opacity: .3;
+  opacity: 0.3;
   z-index: 100;
 }
 
@@ -812,7 +824,7 @@ body.hidden {
 }
 
 .p-aicatch {
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.9);
   color: #fff;
 }
 
@@ -822,7 +834,7 @@ body.hidden {
 }
 
 .p-staff {
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .p-staff .p-title span {
@@ -874,7 +886,7 @@ body.hidden {
 .p-access {
   padding-top: 20px;
   color: #fff;
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .p-access .p-title span {
@@ -996,7 +1008,7 @@ body.hidden {
   left: 0;
   bottom: 0;
   margin: auto;
-  content: '';
+  content: "";
   height: 10px;
   width: 10px;
   background-image: url(/images/common/arrow.png);
@@ -1042,6 +1054,85 @@ body.hidden {
 .c-about .c-points__desc .num-wrap,
 .c-method .c-points__desc .num-wrap {
   text-align: center;
+}
+
+.c-about .c-flow,
+.c-method .c-flow {
+  padding-top: 50px;
+}
+
+.c-about .c-flow .item-tit,
+.c-method .c-flow .item-tit {
+  font-size: 24px;
+}
+
+.c-about .c-flow .item-tit .num,
+.c-method .c-flow .item-tit .num {
+  color: #dad7cd;
+  font-size: 42px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.c-about .c-flow-item,
+.c-method .c-flow-item {
+  position: relative;
+  padding: 50px 0;
+}
+
+.c-about .c-flow-item::after,
+.c-method .c-flow-item::after {
+  content: "";
+  position: absolute;
+  z-index: 200;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -40px;
+  display: block;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 20px 40px 0 40px;
+  border-color: #f0f0f0 transparent transparent transparent;
+}
+
+.c-about .c-flow-item:last-child::after,
+.c-method .c-flow-item:last-child::after {
+  display: none;
+}
+
+.c-about .c-flow #flow02::after,
+.c-about .c-flow #flow04::after,
+.c-about .c-flow #flow06::after,
+.c-method .c-flow #flow02::after,
+.c-method .c-flow #flow04::after,
+.c-method .c-flow #flow06::after {
+  border-color: #fff transparent transparent transparent;
+}
+
+.c-about .c-flow #flow01,
+.c-about .c-flow #flow03,
+.c-about .c-flow #flow05,
+.c-about .c-flow #flow07,
+.c-method .c-flow #flow01,
+.c-method .c-flow #flow03,
+.c-method .c-flow #flow05,
+.c-method .c-flow #flow07 {
+  background-color: #f0f0f0;
+}
+
+@media (max-width: 599px) {
+  .c-about .item-img.view-pc,
+  .c-method .item-img.view-pc {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .c-about .item-img.view-sp,
+  .c-method .item-img.view-sp {
+    display: none;
+  }
 }
 
 .c-about .more-btn,
@@ -1172,7 +1263,7 @@ body.hidden {
 }
 
 .faq-wrapper .faq dt::before {
-  content: 'Q';
+  content: "Q";
   position: absolute;
   top: -5px;
   left: 0;
@@ -1194,7 +1285,7 @@ body.hidden {
 }
 
 .faq-wrapper .faq dt span::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -1206,8 +1297,8 @@ body.hidden {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: contain;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .faq-wrapper .faq dd {
@@ -1215,7 +1306,7 @@ body.hidden {
 }
 
 .faq-wrapper .faq dd::before {
-  content: 'A';
+  content: "A";
   position: absolute;
   top: 0;
   left: 0;
@@ -1296,7 +1387,7 @@ body.hidden {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  border: 1px solid #C4CCD1;
+  border: 1px solid #c4ccd1;
   background: #fff;
   margin: 0 1.3vw;
 }
@@ -1357,7 +1448,7 @@ body.hidden {
 
 .c-news__contents {
   line-height: 2;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .c-news__title {
@@ -1388,7 +1479,7 @@ body.hidden {
 .c-news-sl__link {
   margin: 0 0 10vw 0;
   text-align: right;
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 .c-news-sl__link a {
@@ -1412,7 +1503,7 @@ body.hidden {
 
 .c-contact .c-description {
   padding: 40px 0;
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.9);
   color: #fff;
 }
 
@@ -1474,7 +1565,7 @@ body.hidden {
 }
 
 .c-contact .contact-form .must::after {
-  content: '*';
+  content: "*";
   font-size: 14px;
   color: #1d649e;
 }
@@ -1697,7 +1788,7 @@ body.hidden {
   right: 5px;
   bottom: 0;
   margin: auto;
-  content: '';
+  content: "";
   display: inline-block;
   height: 18px;
   width: 18px;
@@ -1928,7 +2019,7 @@ body.hidden {
   transition: all 0.5s;
   opacity: 0;
   z-index: -1;
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .mobile-menu__nav {
@@ -2015,7 +2106,7 @@ body.hidden {
   overflow: hidden;
   height: 64px;
   width: 100%;
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.9);
   opacity: 0.9;
 }
 
@@ -3925,6 +4016,24 @@ body.hidden {
   .c-about .c-points__desc,
   .c-method .c-points__desc {
     width: 50%;
+  }
+  .c-about .c-flow-item .c-container, .c-about .c-flow-item .c-points__desc,
+  .c-method .c-flow-item .c-container,
+  .c-method .c-flow-item .c-points__desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .c-about .c-flow .item-wrap,
+  .c-method .c-flow .item-wrap {
+    width: 48%;
+  }
+  .c-about .c-flow .item-img,
+  .c-method .c-flow .item-img {
+    width: 48%;
   }
   .c-trainers .c-staff__flex {
     display: -webkit-box;

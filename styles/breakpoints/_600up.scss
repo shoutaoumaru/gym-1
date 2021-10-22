@@ -6,7 +6,7 @@
   }
 }
 
-//.top-view 
+//.top-view
 .top-view {
   margin-bottom: 100px;
 
@@ -15,7 +15,7 @@
   }
 }
 
-//.p-about 
+//.p-about
 .p-about {
   &__container {
     display: flex;
@@ -49,7 +49,7 @@
   }
 }
 
-//.p-method 
+//.p-method
 .p-method {
   margin-top: 50px;
 
@@ -60,7 +60,6 @@
 
   &__img {
     width: 50%;
-
   }
 
   & .c-container {
@@ -80,7 +79,6 @@
 
   &__img {
     width: 50%;
-
   }
 
   & .c-container {
@@ -108,7 +106,7 @@
   }
 }
 
-//.p-access 
+//.p-access
 .p-access {
   &__wrap {
     display: flex;
@@ -230,13 +228,29 @@
       }
     }
 
-
     &__img {
       width: 50%;
     }
 
     &__desc {
       width: 50%;
+    }
+  }
+
+  .c-flow {
+    &-item {
+      .c-container {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    & .item-wrap {
+      width: 48%;
+    }
+
+    & .item-img {
+      width: 48%;
     }
   }
 }
@@ -259,7 +273,7 @@
   }
 }
 
-// * * * * * * * * * よくあるご質問* * * * * * 
+// * * * * * * * * * よくあるご質問* * * * * *
 .faq-wrapper {
   .faq-contents {
     & .c-container {
@@ -267,7 +281,6 @@
     }
 
     & .faq {
-
       &__title {
         text-align: center;
       }
@@ -330,7 +343,7 @@
   }
 }
 
-//* * * * * * * * * * 採用情報 * * * * * * * * 
+//* * * * * * * * * * 採用情報 * * * * * * * *
 .c-recruit {
   .c-container {
     padding: 0 5vw;
@@ -375,11 +388,10 @@
         display: none;
       }
     }
-
   }
 }
 
-// * * * * * * * * * お知らせ一覧 * * * * * * 
+// * * * * * * * * * お知らせ一覧 * * * * * *
 .news-wrapper {
   padding: 0;
 
@@ -404,9 +416,8 @@
   }
 }
 
-// * * * * * * * * * お知らせ詳細 * * * * * * 
+// * * * * * * * * * お知らせ詳細 * * * * * *
 .c-news-sl {
-
   &__contents {
     padding: 10vw 0;
   }
