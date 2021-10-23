@@ -37,7 +37,7 @@ body.hidden {
       display: inline-block;
       height: 12px;
       width: 12px;
-      background-image: url(/images/common/arrow.png);
+      background-image: url(../images/common/arrow.png);
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
@@ -64,7 +64,7 @@ body.hidden {
   right: 0;
   bottom: 0;
   margin: auto;
-  background-image: url(/images/common/tel-white.png);
+  background-image: url(../images/common/tel-white.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -79,7 +79,7 @@ body.hidden {
   right: 0;
   bottom: 0;
   margin: auto;
-  background-image: url(/images/common/icon-link-1-white.png);
+  background-image: url(../images/common/icon-link-1-white.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -93,7 +93,7 @@ body.hidden {
   &::before {
     content: "";
     display: block;
-    background-image: url(/images/common/icon-map.png);
+    background-image: url(../images/common/icon-map.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -114,7 +114,7 @@ body.hidden {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(/images/common/icon-insta-gr.png);
+    background-image: url(../images/common/icon-insta-gr.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -298,7 +298,7 @@ body.hidden {
           bottom: 0;
           margin: auto;
           width: 20px;
-          background-image: url(/images/common/arrow-wh.png);
+          background-image: url(../images/common/arrow-wh.png);
           background-position: center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -334,7 +334,7 @@ body.hidden {
 
           &:first-child {
             &::before {
-              background-image: url(/images/common/arrow.png);
+              background-image: url(../images/common/arrow.png);
             }
           }
         }
@@ -723,7 +723,7 @@ body.hidden {
           content: "";
           height: 10px;
           width: 10px;
-          background-image: url(/images/common/arrow.png);
+          background-image: url(../images/common/arrow.png);
           background-repeat: no-repeat;
           background-size: contain;
         }
@@ -1097,7 +1097,7 @@ body.hidden {
           right: 0;
           width: 16px;
           height: 16px;
-          background-image: url(/images/common/arrow-down-bl.png);
+          background-image: url(../images/common/arrow-down-bl.png);
           background-position: top center;
           background-repeat: no-repeat;
           background-size: contain;
@@ -1205,7 +1205,7 @@ body.hidden {
         content: "";
         position: absolute;
         right: 0;
-        background-image: url(/images/common/arrow.png);
+        background-image: url(../images/common/arrow.png);
         background-position: right center;
         background-repeat: no-repeat;
         background-size: 100% 100%;
