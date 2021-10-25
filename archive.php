@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>お知らせ一覧 | 建設業テンプレート4</title>
+  <title>お知らせ一覧 | ジムテンプレート１</title>
   <?php get_header(); ?>
 </head>
 

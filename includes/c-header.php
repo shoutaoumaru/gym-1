@@ -36,10 +36,13 @@
             </li>
             <li class="pc-nav-item">
               <a class="pc-nav-link animsition-link"
-                href=" <?php echo esc_url( home_url('/recruit')); ?>"><span>よくあるご質問</span><small>FAQ</small></a>
+                href=" <?php echo esc_url( home_url('/faq')); ?>"><span>よくあるご質問</span><small>FAQ</small></a>
             </li>
             <li class="pc-nav-item">
               <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/news')); ?>"><span>お知らせ</span><small>NEWS</small></a>
+            </li>
+            <li class="pc-nav-item">
+              <a class="pc-nav-link animsition-link" href=" <?php echo esc_url( home_url('/recruit')); ?>"><span>採用情報</span><small>NEWS</small></a>
             </li>
           </ul>
           <div class="pc-contact">
