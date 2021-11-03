@@ -1895,6 +1895,9 @@ body.hidden {
   .p-header .sp-navbtn {
     display: none;
   }
+  .p-header .mobile-menu {
+    display: none;
+  }
 }
 
 .p-header .hide.sp-navbtn {

@@ -88,6 +88,10 @@
     .sp-navbtn {
       display: none;
     }
+
+    .mobile-menu {
+      display: none;
+    }
   }
 
   & .hide {
@@ -368,12 +372,12 @@
     display: block;
 
     &.inview {
-      & > span {
+      &>span {
         background-color: #fff;
       }
     }
 
-    & > span {
+    &>span {
       background-color: $cWhite;
       width: 25px;
       height: 2px;
@@ -418,7 +422,7 @@
   }
 
   .mobile-menu__btn {
-    & > span {
+    &>span {
       background-color: $cWhite !important;
 
       &:nth-child(1) {
