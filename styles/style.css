@@ -2424,8 +2424,8 @@ body.hidden {
 }
 
 .clip-js1 {
-  -webkit-transition: all 1.3s ease;
-  transition: all 1.3s ease;
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease;
 }
 
 .clip-js2 {
