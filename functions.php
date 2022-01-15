@@ -25,12 +25,16 @@ add_filter('register_post_type_args', 'post_has_archive', 10, 2);
   'format' => '',
   'current' => max( 1, get_query_var('paged') ),
   'total' => $wp_query->max_num_pages,
-  'prev_text' => '&larr;',
-  'next_text' => '&rarr;',
+  'prev_text' => '',
+  'next_text' => '',
   'type' => 'list',
-  'end_size' => 3,
-  'mid_size' => 3
+  'end_size' => 1,
+  'mid_size' => 1
   ) );
   echo '</nav>';
   }
-  
+  //---WP本体：更新通知メールの停止
+add_filter('auto_core_update_send_email' , '__return_false');
+
+//---テーマ：更新通知メールの停止
+add_filter('auto_theme_update_send_email' , '__return_false');
